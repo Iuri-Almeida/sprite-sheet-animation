@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+:root {
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px;
+
+    --background: #fff;
+    --text: #fff;
+    --title: #FF9F1C;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background: var(--background);
+
+    color: var(--text);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+#titles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+
+    width: 100%;
+
+    text-align: center;
+
+    background: var(--title);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+
+    width: 100%;
+
+    text-align: center;
+
+    background: var(--title);
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+}
+
+#naruto-sprite-sheet {
+    width: 4.525rem;
+    height: 6.4rem;
+
+    background: url('./images/naruto.png');
+
+    animation: naruto 1s steps(4) infinite;
+}
+
+#naruto2-sprite-sheet {
+    width: 3.2rem;
+    height: 5.9rem;
+
+    background: url('./images/naruto2.png');
+
+    animation: naruto2 1s steps(4) infinite;
+}
+
+#sasuke-sprite-sheet {
+    width: 4.525rem;
+    height: 6.4rem;
+
+    background: url('./images/sasuke.jpeg');
+
+    animation: sasuke 1s steps(4) infinite;
+}
+
+#pain-sprite-sheet {
+    width: 4.525rem;
+    height: 6.4rem;
+
+    background: url('./images/pain.png');
+
+    animation: pain 1s steps(4) infinite;
+}
+
+#kisame-sprite-sheet {
+    width: 5.775rem;
+    height: 5.45rem;
+
+    background: url('./images/kisame.jpeg');
+
+    animation: kisame 1s steps(4) infinite;
+}
+
+#obito-sprite-sheet {
+    width: 4.625rem;
+    height: 6.5rem;
+
+    background: url('./images/obito.jpeg');
+
+    animation: obito 1s steps(4) infinite;
+}
+
+#itachi-sprite-sheet {
+    width: 3.2rem;
+    height: 4.8rem;
+
+    background: url('./images/itachi.png');
+
+    animation: itachi 1s steps(4) infinite;
+}
+
+@keyframes naruto {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: -18.1rem;
+    }
+}
+
+@keyframes naruto2 {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: -12.8rem;
+    }
+}
+
+@keyframes sasuke {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: -18.1rem;
+    }
+}
+
+@keyframes pain {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: -18.1rem;
+    }
+}
+
+@keyframes kisame {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: -23.1rem;
+    }
+}
+
+@keyframes obito {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: -18.5rem;
+    }
+}
+
+@keyframes itachi {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: -12.8rem;
+    }
+}
